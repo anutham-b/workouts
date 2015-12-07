@@ -1,5 +1,9 @@
 package day1;
 
+/**
+ * Checking if the class implements a particular Interface.
+ *
+ */
 public class AMarkerImpl implements AIMarker {
 	/**
 	 * Simple check
@@ -13,7 +17,7 @@ public class AMarkerImpl implements AIMarker {
 	}
 
 	/**
-	 * Reflection
+	 * Check using Reflection
 	 */
 	public void checkInterfaceWithMetadata() {
 		Class clazz = this.getClass();

@@ -1,5 +1,8 @@
 package day1.reflection;
 
+/**
+ * The abstract class for all shapes
+ */
 public abstract class Shape {
 	private double width, height;
 	
