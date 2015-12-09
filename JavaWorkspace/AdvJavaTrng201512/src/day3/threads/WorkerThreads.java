@@ -1,9 +1,10 @@
-package day2.threads;
+package day3.threads;
 
 /**
  * This class creates a thread to read and another thread to write into the
- * {@link EventManager}
- * In case there are two readers, there is no thread to notify the reader threads. 
+ * {@link EventManagerBlockingQueue} In case there are two readers, there is no
+ * thread to notify the reader threads.</br>
+ * This class uses {@link ReadTask}, {@link WriterTask} and {@link EventManager}
  */
 public class WorkerThreads {
 	public static void main(String[] args) {

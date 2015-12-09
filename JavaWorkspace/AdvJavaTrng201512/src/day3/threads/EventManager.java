@@ -1,4 +1,4 @@
-package day2.threads;
+package day3.threads;
 
 import java.util.Date;
 import java.util.LinkedList;
@@ -43,6 +43,9 @@ public class EventManager {
 		}
 		events.add(new Date());
 		System.out.println("Writer. Size: " + events.size());
-		notifyAll();
+		// notify() wakes a reader thread at random.
+		notify();
+		// notifyAll() wakes up both reader threads.
+//		notifyAll(); 
 	}
 }

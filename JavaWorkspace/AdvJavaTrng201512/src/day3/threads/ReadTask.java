@@ -1,7 +1,7 @@
-package day2.threads;
+package day3.threads;
 
 /**
- * This class continuously reads from the Queue in {@link EventManager}
+ * This class continuously reads from the Queue in {@link EventManagerBlockingQueue}
  *
  */
 public class ReadTask implements Runnable {
@@ -13,7 +13,7 @@ public class ReadTask implements Runnable {
 
 	@Override
 	public void run() {
-		for (int i = 0; i < 100; i++) {
+		for (int i = 0; i < 50; i++) {
 			eventManager.read();
 		}
 	}

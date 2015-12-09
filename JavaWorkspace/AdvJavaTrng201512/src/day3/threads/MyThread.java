@@ -1,4 +1,4 @@
-package day2.threads;
+package day3.threads;
 
 import java.util.concurrent.TimeUnit;
 
