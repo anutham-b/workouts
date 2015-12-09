@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 import java.util.Scanner;
 
 /**
- * 
+ * Instantiate a class at runtime 
  */
 public class MethodReflection {
 

@@ -1,4 +1,4 @@
-package day1.generics;
+package day2.generics;
 
 public interface IMinMaxArray<T> {
 
