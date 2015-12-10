@@ -5,3 +5,4 @@
 **/.recommenders/*
 **/.settings/*
 **/bin/*
+**/target/*
